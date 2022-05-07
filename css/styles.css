@@ -1,0 +1,185 @@
+/* Title Section*/
+.title{
+  background-color:#ff4c68;
+  color: #fff;
+}
+
+.cont-f1{
+  padding:3% 15%;
+}
+
+#titleh1{
+  font-size: 3.5rem;
+  line-height: 1.3;
+  font-family: Montserrat-Black 900;
+  padding-bottom: 15px;
+  font-weight: bolder;
+}
+
+/* Title image */
+.iphn6img{
+  transform: rotate(25deg);
+  width: 18%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Navbar Properties */
+.navbar{
+  padding-top: 15px;
+  padding-bottom:4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: Ubuntu;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat light;
+}
+
+/* Download Button Properties */
+.down-btn{
+  margin:5% 3% 5% 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* Feature Section */
+#features{
+  padding:7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+/* CSS Properties Feature Section */
+h3{
+  font-family: Montserrat Bold 700;
+  font-weight: 700;
+  font-size: 1.5rem;
+
+}
+
+p{
+  color: #8f8f8f;
+
+}
+
+/* Feature Section Cols */
+.featcol{
+  padding: 5%;
+}
+
+/* Feature Section Icons */
+.featcon{
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom:2%;
+}
+.featcon:hover{
+  color: #ff4c68;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 20%;
+}
+h2{
+  font-family: Montserrat Bold 700;
+  line-height: 4rem;
+  font-size: 3rem;
+}
+
+.testimonial-img{
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* Press Section*/
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* ================================================================================================================== */
+/* Media Query Section */
+@media (max-width:950px) {
+  .iphn6img{
+    transform: rotate(0deg);
+    width: 50%;
+    position: static;
+  }
+
+  .cont-f1{
+    text-align: center;
+  }
+}
+/* ================================================================================================================== */
+
+/* Call to Action section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+}
+
+.ctah3{
+  padding-top: 80px;
+  padding-bottom: 60px;
+  font-weight: bolder;
+  line-height: 3.7rem;
+  font-size:3rem;
+}
+
+.down-btn2{
+  margin:0 2% 7% 0
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* Footer section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.fcon{
+  margin: 20px 10px;
+}
