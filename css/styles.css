@@ -140,7 +140,7 @@ h2{
 
 /* ================================================================================================================== */
 /* Media Query Section */
-@media (max-width:950px) {
+@media (max-width:980px) {
   .iphn6img{
     transform: rotate(0deg);
     width: 50%;
